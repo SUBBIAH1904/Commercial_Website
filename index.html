@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resale Wheel | Resale Vehicle Marketplace</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="brand">
+            <span class="brand-mark">RW</span>
+            <span>Resale Wheel</span>
+        </div>
+
+        <nav class="nav-links" aria-label="Main navigation">
+            <a href="#vehicles">Vehicles</a>
+            <a href="#process">How It Works</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-copy">
+                <p class="eyebrow">Verified pre-owned vehicles</p>
+                <h1>Buy and sell resale vehicles with confidence.</h1>
+                <p class="hero-text">
+                    Resale Wheel is a commercial resale vehicle website for inspected cars, bikes,
+                    and SUVs with fair pricing, finance guidance, and quick documentation support.
+                </p>
+                <div class="hero-actions">
+                    <a class="btn primary" href="#vehicles">View Vehicles</a>
+                    <a class="btn secondary" href="#contact">Sell Your Vehicle</a>
+                </div>
+            </div>
+
+            <div class="hero-panel" aria-label="Featured vehicle">
+                <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=900&q=80" alt="Black resale sports car">
+                <div class="price-strip">
+                    <span>Featured Deal</span>
+                    <strong>From Rs. 5.8L</strong>
+                </div>
+            </div>
+        </section>
+
+        <section class="search-strip" aria-label="Vehicle search options">
+            <label>
+                Vehicle type
+                <select>
+                    <option>All vehicles</option>
+                    <option>Cars</option>
+                    <option>SUVs</option>
+                    <option>Bikes</option>
+                </select>
+            </label>
+            <label>
+                Budget
+                <select>
+                    <option>Any budget</option>
+                    <option>Below Rs. 2L</option>
+                    <option>Rs. 2L - Rs. 8L</option>
+                    <option>Above Rs. 8L</option>
+                </select>
+            </label>
+            <label>
+                Fuel
+                <select>
+                    <option>All fuel types</option>
+                    <option>Petrol</option>
+                    <option>Diesel</option>
+                    <option>Electric</option>
+                </select>
+            </label>
+            <a class="btn primary" href="#vehicles">Search Stock</a>
+        </section>
+
+        <section class="trust-row" aria-label="Business highlights">
+            <div>
+                <strong>120+</strong>
+                <span>Vehicles listed</span>
+            </div>
+            <div>
+                <strong>48 hr</strong>
+                <span>Ownership transfer</span>
+            </div>
+            <div>
+                <strong>100%</strong>
+                <span>Inspection reports</span>
+            </div>
+        </section>
+
+        <section class="section" id="vehicles">
+            <div class="section-heading">
+                <p class="eyebrow">Available stock</p>
+                <h2>Popular resale vehicles</h2>
+                <p>Each listing is arranged with Flexbox so vehicle cards stay balanced on desktop and wrap naturally on tablets and phones.</p>
+            </div>
+
+            <div class="vehicle-list">
+                <article class="vehicle-card">
+                    <img src="https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=700&q=80" alt="White compact car">
+                    <div class="vehicle-content">
+                        <h3>Honda City VX</h3>
+                        <p>Petrol, 42,000 km, single owner, service history available.</p>
+                        <div class="card-bottom">
+                            <strong>Rs. 7.45L</strong>
+                            <a href="#contact">Enquire</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="vehicle-card">
+                    <img src="https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?auto=format&fit=crop&w=700&q=80" alt="Red resale SUV">
+                    <div class="vehicle-content">
+                        <h3>Hyundai Creta SX</h3>
+                        <p>Diesel, 58,000 km, new tyres, insurance valid.</p>
+                        <div class="card-bottom">
+                            <strong>Rs. 10.9L</strong>
+                            <a href="#contact">Enquire</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="vehicle-card">
+                    <img src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=700&q=80" alt="Resale motorcycle">
+                    <div class="vehicle-content">
+                        <h3>Royal Enfield Classic</h3>
+                        <p>350cc, 18,500 km, showroom maintained, ready delivery.</p>
+                        <div class="card-bottom">
+                            <strong>Rs. 1.65L</strong>
+                            <a href="#contact">Enquire</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="vehicle-card">
+                    <img src="https://images.unsplash.com/photo-1593941707882-a5bba14938c7?auto=format&fit=crop&w=700&q=80" alt="Blue electric resale car">
+                    <div class="vehicle-content">
+                        <h3>Tata Nexon EV</h3>
+                        <p>Electric, 24,000 km, company warranty, fast charger included.</p>
+                        <div class="card-bottom">
+                            <strong>Rs. 9.8L</strong>
+                            <a href="#contact">Enquire</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section process-section" id="process">
+            <div class="section-heading">
+                <p class="eyebrow">Simple process</p>
+                <h2>How Resale Wheel works</h2>
+            </div>
+
+            <div class="process-list">
+                <div class="process-step">
+                    <span>1</span>
+                    <h3>Choose</h3>
+                    <p>Browse verified vehicle listings with photos, mileage, fuel type, and price.</p>
+                </div>
+                <div class="process-step">
+                    <span>2</span>
+                    <h3>Inspect</h3>
+                    <p>Book a test drive and check inspection details before making a decision.</p>
+                </div>
+                <div class="process-step">
+                    <span>3</span>
+                    <h3>Purchase</h3>
+                    <p>Complete payment, finance, insurance, and transfer support in one place.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section info-section" id="about">
+            <div class="info-copy">
+                <p class="eyebrow">Working principle</p>
+                <h2>Flexbox layout explanation</h2>
+                <p>
+                    This website uses CSS Flexbox to arrange items in rows on large screens and stack
+                    them neatly on smaller screens. The header uses Flexbox to place the logo and
+                    navigation side by side. The search strip, trust boxes, product cards, process
+                    steps, information block, and footer also use <strong>display: flex</strong>.
+                    Product cards use <strong>display: flex</strong> with
+                    <strong>flex-wrap</strong>, so cards move to the next line when screen width is limited.
+                </p>
+                <p>
+                    Flex properties such as <strong>justify-content</strong>, <strong>align-items</strong>,
+                    <strong>gap</strong>, and <strong>flex-basis</strong> control alignment, spacing, and
+                    minimum card size. Media queries adjust direction, spacing, and card width for mobile devices. This
+                    keeps the navigation, vehicle section, process boxes, and footer readable without
+                    horizontal scrolling.
+                </p>
+            </div>
+            <aside class="contact-box" id="contact">
+                <h2>Contact Resale Wheel</h2>
+                <p>Call: +91 98765 43210</p>
+                <p>Email: sales@resalewheel.example</p>
+                <a class="btn primary" href="mailto:sales@resalewheel.example">Send Enquiry</a>
+            </aside>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div>
+            <strong>Resale Wheel</strong>
+            <p>Trusted marketplace for pre-owned cars, bikes, and SUVs.</p>
+        </div>
+        <p>&copy; 2026 Resale Wheel. All rights reserved.</p>
+    </footer>
+</body>
+</html>
